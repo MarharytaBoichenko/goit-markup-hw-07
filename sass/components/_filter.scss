@@ -5,8 +5,7 @@
 }
 
 .filter__item {
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 1.88);
 }
 
 .filter__item:not(:last-child) {

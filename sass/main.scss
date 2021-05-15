@@ -1,31 +1,6 @@
-@import './utils/variables';
-@import './utils/placeholders';
+@import './utils/index';
+@import './base/index';
+@import './components/index';
+@import './layouts/index';
 
-@import './base/common';
-@import './base/container';
-@import './base/flex-list';
-
-@import './components/logo';
-@import './components/button';
-@import './components/menu';
-@import './components/contacts';
-@import './components/socials';
-@import './components/socials-icon';
-@import './components/filter';
-@import './components/address';
-@import './components/modal';
-@import './components/form';
-@import './components/checkbox';
-@import './components/join';
-@import './components/subscribe';
-
-@import './layouts/header';
-@import './layouts/hero';
-@import './layouts/section';
-@import './layouts/feature';
-@import './layouts/works';
-@import './layouts/team';
-@import './layouts/portfolio';
-@import './layouts/clients';
-@import './layouts/footer';
-@import './layouts/block';
+/

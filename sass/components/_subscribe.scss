@@ -31,8 +31,7 @@
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.25;
+  @include font(16px, 1.25);
   color: var(--footer-contacts-color);
   background-color: transparent;
 }
@@ -41,5 +40,5 @@
 .subscribe__input:-webkit-autofill:hover,
 .subscribe__input:-webkit-autofill:focus {
   -webkit-text-fill-color: var(--footer-contacts-color);
-  -webkit-box-shadow: 0 0 0px 1000px var(--hero-footer-color) inset;
+  box-shadow: 0 0 0px 1000px var(--hero-footer-color) inset;
 }

@@ -22,8 +22,8 @@
 
   color: var(--title-color);
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.63;
+  @include font(16px, 1.63);
+
   text-align: center;
   background-color: var(--team-bcg-color);
   cursor: pointer;
