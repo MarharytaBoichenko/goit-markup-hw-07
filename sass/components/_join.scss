@@ -1,0 +1,10 @@
+.join-section__link {
+  background-color: var(--join-link-cl);
+}
+
+.join-section__link .socials__icon {
+  fill: var(--second-accent-color);
+}
+.join-section__text {
+  @extend %join-subscribe-text;
+}
