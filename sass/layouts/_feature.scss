@@ -5,21 +5,23 @@
   font-weight: 700;
   line-height: 1.14;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .feature__item {
   flex-basis: calc((100% - 4 * 30px) / 4);
 }
+
 .feature__thumb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex;
+
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-color: var(--team-bcg-color);
   border-radius: 4px;
 }
+
 .feature__icon {
   width: 70px;
   height: 70px;

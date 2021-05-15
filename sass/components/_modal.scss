@@ -36,28 +36,28 @@
 }
 
 .modal__close-btn {
+  @extend %flex;
+
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   width: 30px;
   height: 30px;
   background: var(--second-accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+
+  &:hover {
+    border-color: var(--first-accent-color);
+  }
 }
 
 .modal__close-icon {
   fill: var(--logo-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__close-btn:hover {
-  border-color: var(--first-accent-color);
-}
-
-.modal__close-btn:hover .modal__close-icon {
-  fill: var(--first-accent-color);
+  .modal__close-btn:hover & {
+    fill: var(--first-accent-color);
+  }
 }

@@ -1,27 +1,37 @@
-.contacts__item {
+.contacts,
+.contacts__item,
+.contacts__link {
   display: flex;
+}
+
+.contacts__item,
+.contacts__link {
   align-items: center;
 }
 
-.contacts__link {
-  display: flex;
-  align-items: center;
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
 
+.contacts__link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--first-accent-color);
+  }
 }
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--first-accent-color);
-}
-.contacts__link:hover .contacts__icon,
-.contacts__link:focus .contacts__icon {
-  fill: currentColor;
-}
+
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
+
+  .contacts__link:hover &,
+  .contacts__link:focus & {
+    fill: currentColor;
+  }
 }

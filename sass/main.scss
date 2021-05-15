@@ -28,30 +28,4 @@
 @import './layouts/portfolio';
 @import './layouts/clients';
 @import './layouts/footer';
-
-.menu,
-.contacts,
-.footer-box,
-.clients {
-  display: flex;
-}
-
-.menu__item:not(:last-child),
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.hero,
-.footer {
-  background-color: var(--hero-footer-color);
-}
-
-.hero__title,
-.feature__title {
-  text-transform: uppercase;
-}
-
-.portfolio__title,
-.portfolio__label {
-  text-align: left;
-}
+@import './layouts/block';

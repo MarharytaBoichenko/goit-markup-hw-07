@@ -4,11 +4,11 @@
   justify-content: center;
 }
 
-.filter__item:not(:last-child) {
-  margin-right: 8px;
-}
-
 .filter__item {
   font-size: 16px;
   line-height: 1.88;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
 }
