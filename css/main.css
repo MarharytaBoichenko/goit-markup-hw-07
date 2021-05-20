@@ -835,7 +835,6 @@ img {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
 }
 /*# sourceMappingURL=main.css.map */
