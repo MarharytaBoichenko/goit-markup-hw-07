@@ -797,6 +797,7 @@ img {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/raleway-v19-latin-regular.woff2") format("woff"), url("../fonts/raleway-v19-latin-regular.woff") format("woff2");
 }
 
@@ -804,6 +805,7 @@ img {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("../fonts/raleway-v19-latin-700.woff2") format("woff"), url("../fonts/raleway-v19-latin-700.woff") format("woff2");
 }
 
@@ -834,6 +836,6 @@ img {
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(../../fonts/Roboto-Black.woff2) format("woff2"), url(../../fonts/Roboto-Black.woff) format("woff");
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
 }
 /*# sourceMappingURL=main.css.map */
